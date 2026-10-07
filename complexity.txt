@@ -1,0 +1,74 @@
+BST ASSIGNMENT - COMPLEXITY ANALYSIS
+
+1. BST SEARCH
+
+Best Case:
+O(1)
+
+Average Case:
+O(log n)
+
+Worst Case:
+O(n)
+
+Space Complexity:
+O(n)
+
+
+2. LINEAR SEARCH
+
+Best Case:
+O(1)
+
+Average Case:
+O(n)
+
+Worst Case:
+O(n)
+
+Space Complexity:
+O(1)
+
+
+3. OBSERVED RESULT
+
+For the given 8 identification numbers:
+
+A120:
+BST Comparisons = 3
+Linear Search Comparisons = 6
+
+B12:
+BST Comparisons = 5
+Linear Search Comparisons = 5
+
+A7:
+BST Comparisons = 3
+Linear Search Comparisons = 3
+
+
+4. ANALYSIS
+
+The BST generally requires fewer comparisons than linear search
+when the tree is reasonably balanced.
+
+The performance of a BST depends on its height.
+
+A balanced BST has a height of approximately log n, giving
+efficient search performance.
+
+If the insertion order produces a highly unbalanced tree,
+the height can become n and BST search becomes O(n).
+
+Linear search always checks elements sequentially, so its
+average and worst-case time complexity is O(n).
+
+
+5. CONCLUSION
+
+For a growing database, a balanced BST is more suitable than
+linear search because it provides faster searching on average.
+
+For maintaining efficient searches as the database grows,
+a self-balancing BST such as AVL tree or Red-Black tree can
+be used.

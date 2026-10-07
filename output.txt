@@ -1,0 +1,25 @@
+BST SEARCH vs LINEAR SEARCH
+
+Input IDs:
+A102 A25 A7 B100 B12 A120 B3 A45
+
+Inorder Traversal:
+A102 A120 A25 A45 A7 B100 B12 B3
+
+Search: A120
+BST Search: Found
+Linear Search: Found
+BST Comparisons: 3
+Linear Search Comparisons: 6
+
+Search: B12
+BST Search: Found
+Linear Search: Found
+BST Comparisons: 5
+Linear Search Comparisons: 5
+
+Search: A7
+BST Search: Found
+Linear Search: Found
+BST Comparisons: 3
+Linear Search Comparisons: 3

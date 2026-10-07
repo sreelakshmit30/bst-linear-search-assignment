@@ -1,0 +1,31 @@
+BST VS LINEAR SEARCH COMPARISON
+
+Search Key     BST Comparisons     Linear Comparisons
+------------------------------------------------------
+A120           3                   6
+B12            5                   5
+A7             3                   3
+
+
+COMPLEXITY COMPARISON
+
+Operation          BST                 Linear Search
+------------------------------------------------------
+Best Case          O(1)                O(1)
+Average Case       O(log n)            O(n)
+Worst Case         O(n)                O(n)
+Space              O(n)                O(1)
+
+
+OBSERVATION
+
+For the given data, BST requires fewer comparisons for A120.
+For B12 and A7, both methods require the same number of
+comparisons.
+
+The performance of a normal BST depends on its height and
+insertion order. A balanced BST provides approximately
+O(log n) search time, while a skewed BST can take O(n).
+
+Therefore, for a large and growing database, a self-balancing
+BST such as an AVL tree or Red-Black tree is preferable.
